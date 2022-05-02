@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(fruits.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+
+.logo{
+    color:  black;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 15px;
+    float: left;
+    padding-top: 5px;
+    
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: lightblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: lightblue;
+}
+
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+
+.srch{
+   font-family: 'Times New Roman',;
+   width: 200px;
+   height: 40px;
+   background: #000;
+   border: 1px solid blue;
+   margin-top: 15px;
+   color: yellowgreen;
+   border-right: none;
+   font-size: 16px;
+   float: left;
+   padding: 10px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.btn{
+    width: 70%;
+    height: 40px;
+    background: pink;
+    border: 2px solid #ff7200;
+    margin-top:13px;
+    color: blue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    color: blue;
+    border-radius: 10px;
+    transition: 2s ease;
+    
+
+
+}
+
+.btn:hover{
+    background: blue;
+    color: blue;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+    
+}
+
+.content{
+    color: lightblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', ;
+    position: relative;
+    margin: auto;
+    height: auto;
+}
+
+.par{
+    color: pink;
+    font-weight: bold;
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: pink;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 4s ease;
+}
+
+.content .cn{
+    text-decoration: none;
+    color: #000;
+    transition: 1s ease;
+}
+
+.cn:hover{
+    background-color: pink;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(pink);
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    padding: 25px;
+
+
+
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.link{
+    color: blue;
+    background-color: pink;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #00ff26;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: brown;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    font-size: 18px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: pink;
+    transition: 2s ease;
+
+}
+
+.btnn:hover{
+    background: pink;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
